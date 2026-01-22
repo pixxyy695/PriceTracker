@@ -183,7 +183,7 @@ def test_post_task():
         'llmModel': 'google/gemini-2.5-flash',
         'task': 'Open the amazon app and search for "boat headphones"',
         'apps': ['com.amazon.mShop.android.shopping'],
-        'deviceId': 'e02f83f1-9923-43ae-b428-ce35704fed4b',
+        'deviceId': 'YOUR_DEVICE_ID_HERE',
         'executionTimeout': 1800,
         'maxSteps': 150,
         'outputSchema': {
